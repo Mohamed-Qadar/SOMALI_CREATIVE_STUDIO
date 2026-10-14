@@ -2,21 +2,25 @@
 
 Offline design and video editing for Somali creators, with English/Somali interfaces, editable local projects and 150 editable graphic templates.
 
-**v0.6.1-beta · Windows x64 testing pre-release · Unsigned**
+**Windows installer 0.6.2 Beta · Application/media 0.6.1-beta · Testing pre-release · Unsigned**
 
 ## Download for Windows
 
 <p>
-  <a href="https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SomaliCreativeStudio-Windows-Setup.exe"><img src="docs/images/download-windows-setup.svg" width="280" height="60" alt="Download Windows Setup (.exe) — recommended installer"></a>
+  <a href="https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.2-beta/SomaliCreativeStudio-Windows-Setup.exe"><img src="docs/images/download-windows-setup.svg" width="280" height="60" alt="Download Windows Setup (.exe) — recommended installer"></a>
   <a href="https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SomaliCreativeStudio-Windows-Portable.zip"><img src="docs/images/download-windows-portable.svg" width="210" height="60" alt="Download Windows Portable ZIP"></a>
-  <a href="https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SHA256SUMS.txt"><img src="docs/images/download-checksums.svg" width="230" height="60" alt="Download SHA-256 checksums"></a>
+  <a href="https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.2-beta/SHA256SUMS.txt"><img src="docs/images/download-checksums.svg" width="230" height="60" alt="Download SHA-256 checksums"></a>
 </p>
 
-Text links: **[Windows Setup (.exe)](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SomaliCreativeStudio-Windows-Setup.exe)** · [Portable ZIP](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SomaliCreativeStudio-Windows-Portable.zip) · [SHA-256 checksums](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SHA256SUMS.txt)
+**Setup and its checksum are 0.6.2 Beta. Portable ZIP remains the older 0.6.1 application package; use its [separate 0.6.1 checksums](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SHA256SUMS.txt).**
 
-Choose **Windows Setup** for normal installation, Start Menu shortcuts and an uninstaller. Choose **Portable ZIP** to extract and run the complete application folder.
+Text links: **[Windows Setup 0.6.2 (.exe)](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.2-beta/SomaliCreativeStudio-Windows-Setup.exe)** · [Portable ZIP](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.1-beta/SomaliCreativeStudio-Windows-Portable.zip) · [SHA-256 checksums](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/download/v0.6.2-beta/SHA256SUMS.txt)
 
-[Read the full release notes and known issues](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/tag/v0.6.1-beta).
+Choose **Windows Setup 0.6.2** for normal installation, Start Menu shortcuts and an uninstaller. This installer-only hotfix corrects folder validation and safe 0.6.1 upgrades; the editor, media engine and templates are unchanged. Choose the older **Portable ZIP 0.6.1** to extract and run the complete application folder.
+
+Close the editor before upgrading. Setup selects a verified existing 0.6.1 installation for upgrade. To change location while it is installed, uninstall it normally first; customer projects, templates, settings and licenses are preserved. **Final interactive folder-error/retry acceptance is still pending.**
+
+[Read the full release notes and known issues](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/tag/v0.6.2-beta).
 
 ## Install and start
 
@@ -32,14 +36,14 @@ The target is **Windows 10 version 2004/build 19041 or later, or Windows 11, x64
 ## Beta limitations — read before testing
 
 - **Unsigned testing software:** no signing reputation or full commercial V1 acceptance is claimed. If machine security policy refuses it, record the message; do not disable protections.
-- **Limited qualification:** installer, startup, engine editing/export, uninstall and reinstall checks passed on one Windows 11 development PC. Clean Windows 10/11/N, physical 8 GB/integrated graphics, human listening, Somali-language review and beginner acceptance remain unqualified. Windows N may lack the Media Foundation capabilities required for video export.
+- **Limited qualification:** the exact 0.6.2 Setup/uninstaller passed automated silent-interface fresh installation, 0.6.1 upgrade, uninstall/reinstall, customer-data preservation, startup and graphic engine roundtrip checks on one Windows 11 development PC. This does not establish human wizard acceptance. Clean Windows 10/11/N, physical 8 GB/integrated graphics, human listening, Somali-language review and beginner acceptance remain unqualified. Windows N may lack the Media Foundation capabilities required for video export.
 - **Unresolved Windows video-template stall:** one workflow exceeded its original 100-second bound. Later passes did not establish its cause.
-- **Real file-dialog acceptance is incomplete:** the installed Open-project automation was blocked by a minimized-window guard. Manual picker/edit/export roundtrips are not claimed as passed.
+- **Manual GUI acceptance is incomplete:** an earlier candidate's guarded wizard automation returned installer controls with another foreground application's screenshot, so input stopped. Later rebuilds were not interactively verified. Final folder correction/retry, real Open/Save/Save As, media-import/export dialogs and manual editing/playback remain NOT TESTED. Earlier Open-project automation also encountered a minimized-window guard.
 - **Export destinations need care:** direct MP4 publication was tested on local NTFS and needs hard-link support. Direct FAT/exFAT export is unsupported/unqualified; export to local NTFS and copy the completed file afterward. Keep independent backups.
 - **TEST licensing only:** included disposable TESTING licenses are for this pilot. Production licensing/signing keys are not provisioned, and the company License Manager is excluded.
 - **Commercial review remains open:** codec/patent scope, company EULA, ownership/branding and commercial distribution rights are not approved merely because an encoder works. Keep all bundled notices and required corresponding source.
 
-This is a publicly downloadable pre-release for testing. Its testing purpose does not restrict who can download it. See the [release notes](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/tag/v0.6.1-beta) for exact artifact hashes, verified checks and remaining risks.
+This is a publicly downloadable pre-release for testing. Its testing purpose does not restrict who can download it. See the [release notes](https://github.com/Mohamed-Qadar/SOMALI_CREATIVE_STUDIO/releases/tag/v0.6.2-beta) for exact artifact hashes, verified checks and remaining risks.
 
 ## Linux and macOS
 
@@ -49,5 +53,5 @@ No macOS download is available.
 
 ## Source and third-party notices
 
-Proprietary application source, company licensing tools, customer records and private signing material are not published in this repository. Required third-party notices/source accompany the Windows distributions independently of the private application source. The GPL development FFmpeg executable is excluded. Preserve the bundled grants, source and recipient rights.
+Proprietary application source, company licensing tools, customer records and private signing material are not published in this repository. Required third-party notices/source accompany the Windows distributions independently of the private application source. GitHub's automatic source archives contain public documentation only; download the Setup or Portable asset for the application. The GPL development FFmpeg executable is excluded. Preserve the bundled grants, source and recipient rights.
 
